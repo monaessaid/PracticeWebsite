@@ -1,0 +1,41 @@
+* {
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    margin: 0;
+    background-color: #2B3348;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #131A24;
+    overflow: hidden;
+}
+
+.navItem {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+.navLink {
+    display: block;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navItem:hover {
+    background-color: #374665;
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: white;
+}

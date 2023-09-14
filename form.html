@@ -1,172 +1,32 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
     <title>My First Website</title>
 
     <meta name="description" content="My practice webpage">
-    <meta name="keywords" content="website,beginners,student,computer science">
     <meta name="author" content="Mona Essaid">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
 </head>
 
-<body
-    style="color:aquamarine; background-color:rgb(4, 0, 24); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+<body>
 
-    <a href="index.html" title="Home">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px">
-            <h3 style="color: lightgreen">Home</h3>
-        </button>
-    </a>
-
-    <a href="page2.html" title="Formatted text">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px">
-            <h3 style="color: lightgreen">Formatted Text</h3>
-        </button>
-    </a>
-
-
-    <a href="lists.html" title="Lists">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Lists</h3>
-        </button>
-    </a>
-
-
-    <a href="tables.html" title="Tables">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Tables</h3>
-        </button>
-    </a>
-
-
-    <a href="map.html" title="Map">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Map</h3>
-        </button>
-    </a>
-
-    <a href="form.html" title="Form">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Form</h3>
-        </button>
-    </a>
-
-    <br>
-    <br>
-    <br>
-
-    <form>
-
-        <label for="title">Title:</label>
-        <br>
-
-        <label style="color:yellow">Mr.</label>
-        <input type="radio" id ="Mr." name="title" value="Mr.">
-        <br>
-
-        <label style="color:yellow">Mrs.</label>
-        <input type="radio" id ="Mrs." name="title" value="Mrs.">
-        <br>
-
-        <label style="color:yellow">Mx.</label>
-        <input type="radio" id ="Mx." name="title" value="Mx.">
-        <br>
-
-        <label style="color:yellow">Dr.</label>
-        <input type="radio" id ="Dr." name="title" value="Dr.">
-
-        <br>
-        <br>
-
-        <label for="eyecolor">Eye Color:</label>
-        <select id="eyecolor" name="eyecolor">
-            <option>Green</option>
-            <option>Blue</option>
-            <option>Hazel</option>
-            <option>Brown</option>
-            <option>Black</option>
-        </select>
-
-        <br>
-        <br>
-
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name ="fname" placeholder="I steal your name">
-
-        <br>
-        <br>
-
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" placeholder="I steal your soul">
-
-        <br>
-        <br>
-
-        <label for="ssn">Social Security Number:</label>
-        <input type="ssn" id="ssn" name="ssn" placeholder="I hope you fall for it" required>
-
-        <br>
-        <br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="CEO@actualbusiness.com">
-
-        <br>
-        <br>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Jackpot">
-
-        <br>
-        <br>
-
-        <label for="phone">Phone Number:</label>
-        <input type="phone" id="phone" name="phone" placeholder="*** - *** - ****">
-
-        <br>
-        <br>
-
-        <label for="dob">Birthday:</label>
-        <input type="date" id="dob" name="dob">
-
-        <br>
-        <br>
-
-        <label for="qty">Quantity:</label>
-        <input type="number" id="qty" name="qty" min="0" max="99" placeholder="10">
-
-        <br>
-        <br>
-
-        <label for="sub">Subscribe?</label>
-        <input type="checkbox" id="sub" name="sub">
-        <br>
-
-        <label for="sub">Unsubscribe?</label>
-        <input type="checkbox" id="sub" name="sub">
-        <br>
-
-        <label for="sub">Resubscribe?</label>
-        <input type="checkbox" id="sub" name="sub">
-
-        <br>
-        <br>
-        
-        <input type="reset" style="border-color: red; border-radius: 3px; background-color: rgb(255, 86, 109); color: rgb(255, 255, 255)">
-
-        <input type="submit" style="border-color: green; border-radius: 3px; background-color: greenyellow; color: green">
-
-    </form>
-
+    <!-- Navbar -->
+    <ul class="navbar">
+        <li class="navItem"><a href="index.html" id="logo" class="navLink">Glencoe</a></li>
+        <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
+        <li class="navItem"><a href="form.html" class="navLink">About</a></li>
+        <li class="navItem"><a href="lists.html" class="navLink">Plan Your Visit</a></li>
+        <li class="navItem"><a href="map.html" class="navLink">Gallery</a></li>
+        <li class="navItem"><a href="page2.html" class="navLink">Contact</a></li>
+    </ul>
 
 </body>
 
