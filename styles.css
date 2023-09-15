@@ -7,7 +7,7 @@ body {
     margin: 0;
     background-color: #2B3348;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .navbar {
@@ -84,3 +84,43 @@ video {
     font-size: 1.2rem;
 }
 
+.plan-visit-body {
+    background-image: url("glencoeImage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    width: 100vw;
+    z-index: 1;
+}
+
+.plan-visit-title {
+    font-family: 'Cinzel Decorative', serif;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #313a05;
+}
+
+.plan-visit-subheading {
+    font-family: 'Cinzel Decorative', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #313a05;
+    /* margin-bottom: 10%; */
+}
+
+.plan-visit-content {
+    width: 80%;
+    /* background-color: #d7d6d4b3; */
+    /* background-color: rgb(58, 67, 81,0.8); */
+    /* background-color: rgb(49, 53, 9,0.8); */
+    background-color: rgb(54, 45, 40,0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    max-width: 75%;
+    border-radius: 10px;
+}
+
+#white-subheading {
+    color: white;
+}
