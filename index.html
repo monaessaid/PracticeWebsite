@@ -1,89 +1,49 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <title>My First Website</title>
 
     <meta name="description" content="My practice webpage">
-    <meta name="keywords" content="website,beginners,student,computer science">
     <meta name="author" content="Mona Essaid">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Crimson+Text&display=swap" rel="stylesheet">
+
+
 </head>
 
-<body
-    style="color:aquamarine; background-color:rgb(4, 0, 24); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+<body>
 
-    <h1 style="font-family: 'Cormorant Garamond', serif;">MONA ESSAID</h1>
-    <hr style="color:rgb(62, 0, 128)">
+    <!-- Navbar -->
+    <ul class="navbar">
+        <li class="navItem"><a href="index.html" id="logo" class="navLink">Glencoe</a></li>
+        <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
+        <li class="navItem"><a href="planyourvisit.html" class="navLink">Plan Your Visit</a></li>
+        <li class="navItem"><a href="map.html" class="navLink">Gallery</a></li>
+        <li class="navItem"><a href="page2.html" class="navLink">Contact</a></li>
+    </ul>
 
-    <a href="page2.html" title="Formatted text">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px">
-            <h3 style="color: lightgreen">Formatted Text</h3>
-        </button>
-    </a>
-
-
-    <a href="lists.html" title="Lists">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Lists</h3>
-        </button>
-    </a>
-
-
-    <a href="tables.html" title="Tables">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Tables</h3>
-        </button>
-    </a>
-
-
-    <a href="map.html" title="Map">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Map</h3>
-        </button>
-    </a>
-
-    <a href="form.html" title="Form">
-        <button
-            style="background-image: linear-gradient(rgb(0, 0, 56),rgb(0, 0, 96),rgb(0, 0, 153),blue); border-radius: 30px; border-style: dotted; border-color: aquamarine; width: 150px;">
-            <h3 style="color: lightgreen">Form</h3>
-        </button>
-    </a>
-
-    <br>
-
-
-    <h1>Hello world</h1>
-    <h2>Hello world</h2>
-    <h3>Hello world</h3>
-    <h4>Hello world</h4>
-    <h5>Hello world</h5>
-    <h6>Hello world</h6>
-
-    <div style="background-image: linear-gradient(to left,blue,rgb(24, 0, 81));">
-        <hr style="color:blueviolet">
-        <br>
-        <p><span style="color:greenyellow">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </span><span
-                style="color:rgb(255, 251, 0)">Minus fuga eveniet sit tenetur magni, impedit
-                consectetur consequuntur amet doloribus explicabo aspernatur quidem, cumque veniam nihil porro vel
-                repellendus.</span>
-            Consequatur, culpa?</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi voluptates eligendi sit facilis sunt, quos
-            quod
-            numquam enim suscipit optio consequuntur facere reiciendis praesentium placeat omnis consequatur. Soluta,
-            nemo
-            consequatur?</p>
+    <!-- Video Background -->
+    <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster>
+            <source src="glencoe.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
+
+    <div class="tagline-container">
+            <h1 id="tagline">Discover Glencoe With Us</h1>
+    </div>
+
 </body>
 
 </html>
