@@ -7,7 +7,10 @@ body {
     margin: 0;
     background-color: #2B3348;
     color: white;
-    /* overflow: hidden; */
+}
+
+.main-body {
+    overflow: hidden;
 }
 
 .navbar {
@@ -90,6 +93,8 @@ video {
     background-size: cover;
     height: 100vh; 
     width: 100vw;
+    min-width: 100%;
+    min-height: 100%;
     z-index: 1;
 }
 
@@ -105,22 +110,36 @@ video {
     text-align: center;
     font-size: 1.2rem;
     color: #313a05;
-    /* margin-bottom: 10%; */
 }
 
 .plan-visit-content {
     width: 80%;
-    /* background-color: #d7d6d4b3; */
+    background-color: #d7d6d4ca;
     /* background-color: rgb(58, 67, 81,0.8); */
     /* background-color: rgb(49, 53, 9,0.8); */
-    background-color: rgb(54, 45, 40,0.8);
+    /* background-color: rgb(54, 45, 40,0.8); */
+    color: black;
     margin-left: auto;
     margin-right: auto;
     padding: 0.5rem;
-    max-width: 75%;
+    max-width: 60%;
     border-radius: 10px;
 }
 
 #white-subheading {
     color: white;
+
+}
+
+.plan-visit-text {
+    /* font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif; */
+    padding: 0;
+    margin: 0;
+}
+
+#directions {
+    /* font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif; */
+    text-decoration: underline;
+    font-weight: bold;
+    /* Need to make it bold */
 }
