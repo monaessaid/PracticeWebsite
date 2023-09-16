@@ -59,11 +59,6 @@ img {
     left:0;
 }
 
-/* .video-wrapper {
-    max-height: 850.37px;
-    max-width: 1046.67px;
-} */
-
 video {
     object-fit: cover;
     position: absolute;
@@ -155,6 +150,7 @@ video {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     padding: 0;
     margin: 0.5rem;
+    text-align: justify;
 }
 
 #directions {
@@ -188,28 +184,17 @@ video {
     color:yellow;
 }
 
-#credit {
-    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
-}
-
-#creditLink {
-    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
-    color: white;
-}
-
-#creditLink:hover {
-    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
-    color: #dfc96a;
-}
-
-#credit-div {
-    margin: auto auto;
+#credit-info {
     text-align: center;
 }
 
 .map {
     display:block;
     margin: auto auto;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 85%;
+    max-height: 85%;
 }
 
 .map-title {
