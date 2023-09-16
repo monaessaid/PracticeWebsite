@@ -21,6 +21,13 @@ body {
     overflow: hidden;
 }
 
+img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-left: 10px;
+}
+
 .navItem {
     display: inline;
     float: left;
@@ -80,11 +87,13 @@ video {
     font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     text-align: center;
+    padding: 5%;
 }
 
 #logo {
     font-family: 'Cinzel Decorative', serif;
     font-size: 1.2rem;
+    padding-left:0;
 }
 
 .plan-visit-body {
@@ -167,6 +176,10 @@ video {
     color:yellow;
 }
 
+#credit {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
 #creditLink {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     color: white;
@@ -181,3 +194,26 @@ video {
     margin: auto auto;
     text-align: center;
 }
+
+.map {
+    display:block;
+    margin: auto auto;
+}
+
+.map-title {
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.map-container {
+    /* margin: auto auto; */
+    /* align-items: center; */
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    height: 100%;
+    width: 100%;
+}
+
