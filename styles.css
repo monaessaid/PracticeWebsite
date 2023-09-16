@@ -91,11 +91,12 @@ video {
     background-image: url("glencoeImage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh; 
+    /* height: 100vh;  */
     width: 100vw;
     min-width: 100%;
     min-height: 100%;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 .plan-visit-title {
@@ -108,21 +109,19 @@ video {
 .plan-visit-subheading {
     font-family: 'Cinzel Decorative', serif;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #313a05;
 }
 
 .plan-visit-content {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     width: 80%;
-    background-color: #d7d6d4ca;
-    /* background-color: rgb(58, 67, 81,0.8); */
-    /* background-color: rgb(49, 53, 9,0.8); */
-    /* background-color: rgb(54, 45, 40,0.8); */
+    background-color: #ffffffd2;
     color: black;
     margin-left: auto;
     margin-right: auto;
     padding: 0.5rem;
-    max-width: 60%;
+    max-width: 75%;
     border-radius: 10px;
 }
 
@@ -132,14 +131,53 @@ video {
 }
 
 .plan-visit-text {
-    /* font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif; */
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0.5rem;
 }
 
 #directions {
-    /* font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif; */
-    text-decoration: underline;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing:0.5px;
     font-weight: bold;
-    /* Need to make it bold */
+    text-align: center;
+    font-size:1.3rem;
+}
+
+#directions-subtitle {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-bottom: 0;
+    font-size:1.2rem;
+    margin-left: 0.5rem;
+}
+
+.bold {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#pv-link {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #00ab1c;
+    text-decoration: none;
+}
+
+#pv-link:hover {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    color:yellow;
+}
+
+#creditLink {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#creditLink:hover {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #dfc96a;
+}
+
+#credit-div {
+    margin: auto auto;
+    text-align: center;
 }
