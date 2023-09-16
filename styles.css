@@ -26,18 +26,21 @@ img {
     height: 60px;
     float: left;
     padding-left: 10px;
+    margin-top: -10px;
 }
 
 .navItem {
     display: inline;
     float: left;
     text-align: center;
+    margin-bottom: -10px;
 }
 
 .navLink {
     display: block;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    /* padding-right: 2rem; */
+    /* padding-left: 2rem; */
+    padding-bottom: 0;
     color: white;
     text-decoration: none;
     padding: 0.5rem;
@@ -47,8 +50,6 @@ img {
 
 .navItem:hover {
     background-color: #374665;
-    text-decoration: underline;
-    text-decoration-style: double;
     color: white;
 }
 
@@ -87,13 +88,24 @@ video {
     font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     text-align: center;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 0;
 }
 
 #logo {
     font-family: 'Cinzel Decorative', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding-left:0;
+    padding-top: 3.5px;
+    color: white;
+    text-decoration: none;
+    padding-top: 0;
+    padding-right: 7px;
+}
+
+#logo:hover {
+    text-decoration: none;
+    background-color: #131A24;
 }
 
 .plan-visit-body {
