@@ -83,7 +83,7 @@ video {
     font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     text-align: center;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     padding-bottom: 0;
 }
 
@@ -195,6 +195,7 @@ video {
     min-height: 50%;
     max-width: 85%;
     max-height: 85%;
+    border-radius: 15px;
 }
 
 .map-title {
@@ -205,12 +206,9 @@ video {
 }
 
 .map-container {
-    /* margin: auto auto; */
-    /* align-items: center; */
     text-align: center;
     height: 100vh;
     width: 100vw;
     height: 100%;
     width: 100%;
 }
-
