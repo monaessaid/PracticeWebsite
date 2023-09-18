@@ -209,10 +209,12 @@ video {
 
 .map-container {
     text-align: center;
-    height: 100vh;
-    width: 100vw;
-    height: 100%;
-    width: 100%;
+    background-color: #142135bd;
+    max-width: 90%;
+    margin: auto auto;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 .map-page-body {
@@ -225,22 +227,6 @@ video {
     min-height: 100%;
     z-index: 1;
     overflow-x: hidden;
-    /* background-image: linear-gradient(
-        to right,
-        #080f1a,
-        #142135,
-        #2c3d40,
-        #596459,
-        #747f74,
-        #818273,
-        #909187,
-        #818273,
-        #747f74,
-        #596459,
-        #2c3d40,
-        #142135,
-        #080f1a
-        ); */
 }
 
 .map-content {
@@ -250,7 +236,7 @@ video {
     border-radius: 10px;
     /* color: #142135; */
     /* background-color: rgba(255, 255, 255, 0.7); */
-    background-color: #142135bd;
+    /* background-color: #142135bd; */
 }
 
 .map-list {
@@ -268,11 +254,15 @@ video {
     padding: 0.5% 0;
 }
 
+/* .map-list-item:hover
+    font-size: 1.5rem;
+    /* color: #00ff00; */
+
 #source {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 0.7rem;
     font-weight: bold;
-    margin: 0 0 2% 2%;
+    /* margin: 0 0 2% 2%; */
     padding-bottom: 2%;
     border-bottom: 1px solid white;
 }
@@ -281,22 +271,40 @@ video {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     text-decoration: none;
     /* color: #2c3d40; */
-    color: #909187;
+    color: #b8e59c;
     font-size: 0.7rem;
 }
 
 #map-sources:hover {
     font-style: italic;
-    color: white;
+    color: #dfbdf1;
 }
 
 #map-paragraphs {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 0.9rem;
     text-align: justify;
-    margin: 1% 2%;
+    /* margin: 1% 2%; */
 }
 
 .map-border {
-    margin-bottom: 5%;
+    margin: 1%;
+    padding: 0;
 }
+
+    /* background-image: linear-gradient(
+        to right,
+        #080f1a,
+        #142135,
+        #2c3d40,
+        #596459,
+        #747f74,
+        #818273,
+        #909187,
+        #818273,
+        #747f74,
+        #596459,
+        #2c3d40,
+        #142135,
+        #080f1a
+        ); */
