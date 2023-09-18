@@ -234,12 +234,9 @@ video {
     margin: auto auto;
     padding: 1%;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.622);
+    color: #142135;
+    background-color: rgba(255, 255, 255, 0.7);
     
-}
-
-.map-text {
-    text-align: justify;
 }
 
 .map-list {
@@ -252,4 +249,29 @@ video {
     font-family: 'Cinzel Decorative', serif;
     font-size: 1.2rem;
     padding-right: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#source {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#map-sources {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #2c3d40;
+}
+
+#map-sources:hover {
+    font-style: italic;
+    color:rgb(27, 98, 32)
+}
+
+#map-paragraphs {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
 }
