@@ -104,7 +104,7 @@ video {
 }
 
 .plan-visit-body {
-    background-image: url("glencoeImage2.jpg");
+    background-image: url("./assets/glencoeImage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh;  */
@@ -218,7 +218,7 @@ video {
 }
 
 .map-page-body {
-    background-image: url(glencoeImage5.jpg);
+    background-image: url(./assets/glencoeImage5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh;  */
@@ -290,6 +290,13 @@ video {
 .map-border {
     margin: 1%;
     padding: 0;
+}
+
+.gallery-title {
+    text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 1.6rem;
+    color: white;
 }
 
     /* background-image: linear-gradient(
