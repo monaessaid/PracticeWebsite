@@ -76,15 +76,20 @@ video {
     min-height: 100%;
     min-width: 100%;
     position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #tagline {
+    /* font-size: 80wv; */
     font-size: 3rem;
     font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     text-align: center;
-    /* padding-top: 5%; */
+    margin-top: -80px;
     padding-bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 #logo {
@@ -297,6 +302,8 @@ video {
     font-family: 'Cinzel Decorative', serif;
     font-size: 1.6rem;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .gallery-page {
