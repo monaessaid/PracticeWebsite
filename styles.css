@@ -1,5 +1,5 @@
 * {
-    font-size: 25px;
+    /* font-size: 25px; */
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -33,7 +33,7 @@ img {
     display: inline;
     float: left;
     text-align: center;
-    margin-bottom: -10px;
+    margin-bottom: -15px;
 }
 
 .navLink {
@@ -44,8 +44,10 @@ img {
     color: white;
     text-decoration: none;
     padding: 0.5rem;
-    margin: 0;
+    /* margin: 0; */
+    margin-bottom: 10px;
     font-weight: bold;
+    font-size: 25px;
 }
 
 .navItem:hover {
@@ -82,7 +84,7 @@ video {
 
 #tagline {
     /* font-size: 80wv; */
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Cinzel Decorative', serif;
     text-decoration: none;
     text-align: center;
@@ -94,7 +96,7 @@ video {
 
 #logo {
     font-family: 'Cinzel Decorative', serif;
-    font-size: 1.5rem;
+    font-size: 40px;
     padding-left:0;
     padding-top: 3.5px;
     color: white;
