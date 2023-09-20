@@ -7,6 +7,7 @@ body {
     margin: 0;
     background-color: #2B3348;
     color: white;
+    font-size: larger;
 }
 
 .main-body {
@@ -92,6 +93,7 @@ video {
     padding-bottom: 0;
     padding-left: 3%;
     padding-right: 3%;
+    text-shadow: 5px 5px 5px black;
 }
 
 #logo {
@@ -111,7 +113,8 @@ video {
 }
 
 .plan-visit-body {
-    background-image: url("./assets/glencoeImage2.jpg");
+    /* background-image: url("./assets/glencoeImage2.jpg"); */
+    background-image: url("./assets/glencoeImage4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh;  */
@@ -125,15 +128,15 @@ video {
 .plan-visit-title {
     font-family: 'Cinzel Decorative', serif;
     text-align: center;
-    font-size: 1.6rem;
-    color: #313a05;
+    font-size: 2.3rem;
+    color: #1d252f;
 }
 
 .plan-visit-subheading {
     font-family: 'Cinzel Decorative', serif;
     text-align: center;
-    font-size: 1.3rem;
-    color: #313a05;
+    font-size: 2rem;
+    color: #1d252f;
 }
 
 .plan-visit-content {
@@ -143,6 +146,7 @@ video {
     color: black;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
     padding: 0.5rem;
     max-width: 75%;
     border-radius: 10px;
@@ -157,22 +161,27 @@ video {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     padding: 0;
     margin: 0.5rem;
+    margin-bottom: 1rem;
     text-align: justify;
 }
 
 #directions {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cinzel Decorative', serif; */
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    /* font-family: 'Cormorant Garamond', serif; */
     letter-spacing:0.5px;
     font-weight: bold;
     text-align: center;
-    font-size:1.3rem;
+    /* font-size:1.3rem; */
+    margin-bottom: 0;
 }
 
 #directions-subtitle {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     margin-bottom: 0;
-    font-size:1.2rem;
+    font-size:1.75rem;
     margin-left: 0.5rem;
+    margin-top:10px;
 }
 
 .bold {
@@ -209,7 +218,7 @@ video {
 .map-title {
     text-align: center;
     font-family: 'Cinzel Decorative', serif;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     color: #131A24;
     /* color: #080f1a; */
 }
@@ -254,7 +263,7 @@ video {
 
 .map-list-item {
     font-family: 'Cinzel Decorative', serif;
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding-right: 0;
     text-align: center;
     font-weight: bold;
@@ -267,7 +276,7 @@ video {
 
 #source {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
     font-weight: bold;
     /* margin: 0 0 2% 2%; */
     padding-bottom: 2%;
@@ -279,7 +288,7 @@ video {
     text-decoration: none;
     /* color: #2c3d40; */
     color: #b8e59c;
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
 }
 
 #map-sources:hover {
@@ -289,20 +298,20 @@ video {
 
 #map-paragraphs {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     text-align: justify;
     /* margin: 1% 2%; */
 }
 
 .map-border {
-    margin: 1%;
+    /* margin: 1%; */
     padding: 0;
 }
 
 .gallery-title {
     text-align: center;
     font-family: 'Cinzel Decorative', serif;
-    font-size: 1.6rem;
+    /* font-size: 2.3rem; */
     color: white;
     margin-top: 20px;
     margin-bottom: 0;
@@ -355,3 +364,32 @@ video {
     content: "";
     /* width: 350px; */
   }
+
+  .attractions-body {
+    background-image: url("./assets/glencoeImage3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh;  */
+    width: 100vw;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.attractions-content {
+    font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
+    width: 80%;
+    background-color: #000000b5;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 0.5rem;
+    max-width: 75%;
+    border-radius: 10px;
+}
+
+p {
+    font-size:larger
+}
