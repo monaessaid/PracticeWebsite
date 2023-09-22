@@ -142,7 +142,7 @@ video {
 .plan-visit-content {
     font-family: 'M PLUS Rounded 1c', 'Calibri', 'Trebuchet MS', sans-serif;
     width: 80%;
-    background-color: #ffffffd2;
+    background-color: #ffffffe2;
     color: black;
     margin-left: auto;
     margin-right: auto;
@@ -202,8 +202,13 @@ video {
 }
 
 #credit-info {
-    text-align: center;
+    border-bottom: solid 1px white;
+    padding-bottom: 5px;
 }
+
+/* #no-border {
+    border:none;
+} */
 
 .map {
     display:block;
